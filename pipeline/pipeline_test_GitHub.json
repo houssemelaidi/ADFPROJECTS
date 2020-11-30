@@ -1,0 +1,17 @@
+{
+	"name": "pipeline_test_GitHub",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait_Activity",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 1
+				}
+			}
+		],
+		"annotations": []
+	}
+}
